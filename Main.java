@@ -13,7 +13,7 @@ class Manali extends HillStations {
     String location() {
         return "Manali, Himachal Pradesh";
     }
-
+    //override
     @Override
     String famousFor() {
         return "Adventure sports and Solang Valley";
