@@ -6,7 +6,7 @@ public class Demo {
 
         char x = 'a';
         
-        switch(x){
+        switch(x){                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
         
         case 66: System.out.println( "B" +" ");break;
         
@@ -21,4 +21,4 @@ public class Demo {
         }
         
     }
-}
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
