@@ -1,39 +1,20 @@
-public class Test1
+public class Test1 {
 
-{ 
+    public static void main(String args[]) {
 
-    public static void main(String[] args) 
-
-    { 
-    
-     try 
-    
-    { 
-    
-     int num = Integer.parseInt("abc"); 
-    
-     System.out.println(num); 
-    
-     System.out.println("After parsing");
-    
-     } 
-    
-    catch (NumberFormatException e) 
-    
-    { 
-    
-     System.out.println("Number Format Exception"); 
-    
-     } 
-    
-    finally 
-    
-    { 
-    
-     System.out.println("Finally block"); 
-    
-     }
-    
-     }
-
- }
+        String str1 , str2 , str3;
+        
+        str3 = new String("jim");
+        
+        str1 = new String("jack");
+        
+        str2 = str1 ;
+        
+        str1 = new String("jill");
+        
+        str3 = str2;
+        
+        System.out.println(str3);
+        
+        }
+}
